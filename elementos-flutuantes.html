@@ -8,21 +8,30 @@
         
         <style type="text/css">
 
+            #principal {
+                border: 5px solid red;
+                background: green;
+            }
+
             .conteudo {
                 background: blue;
                 border: 1px solid gray;
                 width: 200px;
                 height: 200px;
                 margin: 10px;
-                float: left;
+                float: right;
             }
 
-            .conteudo-zero {
+            /* .conteudo-zero {
                 background: red;
                 border: 1px solid gray;
                 width: 200px;
                 height: 200px;
                 margin: 10px;
+            } */
+
+            .clear {
+                clear: both;
             }
 
         </style>
@@ -30,21 +39,35 @@
     </head>
     <body>
         
-        <div class="conteudo">
-            Conteúdo 1
-        </div>
+        <div id="principal">
 
-        <div class="conteudo">
-            Conteúdo 2
-        </div>
+            <div class="conteudo">
+                Conteúdo 1
+            </div>
+    
+            <div class="conteudo">
+                Conteúdo 2
+            </div>
+    
+            <div class="conteudo">
+                Conteúdo 3
+            </div>
 
-        <div class="conteudo">
-            Conteúdo 3
-        </div>
+            <p class="clear">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt ultricies est, 
+                quis fringilla est lobortis non. Aenean vestibulum justo a consectetur gravida. Nullam eu felis ac 
+                nunc consectetur facilisis a sit amet sapien. Aliquam erat volutpat. Nam rutrum massa in neque ullamcorper 
+                aliquam. Nullam orci nunc, scelerisque nec cursus nec, dapibus et dolor. Sed condimentum ut massa 
+                non volutpat. Etiam eleifend, purus vitae laoreet pharetra, justo metus eleifend nisi, at accumsan 
+                dui urna et justo. Vestibulum malesuada lorem et fermentum placerat. Nunc varius libero ac turpis molestie 
+                imperdiet. Nulla dignissim lacus non ex blandit accumsan. Morbi urna turpis, tristique vel tempus eu, 
+                congue sit amet turpis. Nam tempor risus ut diam maximus, vitae volutpat dolor porttitor. Praesent risus 
+                turpis, hendrerit sed vulputate ac, vehicula vitae arcu.
+            </p>
 
-        <div class="conteudo-zero">
-            Conteúdo 4
-        </div>
+            <!-- <div class="clear">aaa</div> -->
 
+        </div>
+        
     </body>
 </html>
