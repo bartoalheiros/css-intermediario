@@ -1,2 +1,2 @@
-# css-intermediario
-Repository created to accompany the course of Jamilton Damasceno in intermediary css at Udemy.com platform.
+# css
+Repository created to make appointments in CSS

@@ -16,7 +16,8 @@
                 background: #FFF;
                 width: 800px;
                 margin: 10px auto;
-                padding: 10px;
+                padding: 100px;
+                position: relative;
             }
 
             h1 {
@@ -27,12 +28,20 @@
                 width: 300px;
             }
 
+           .absolute {
+                border: 1px solid red;
+                background: #f2f2f2;
+                position: absolute;
+                top: 80px;
+                right: 20px;
+           }
+
             .relative {
                 border: 1px solid red;
                 position: relative;
              /*    top: 0px;
                 left: 0px; */
-                bottom: 20px;
+                bottom: -20px;
             }
           
         </style>
@@ -49,7 +58,7 @@
                 nec tortor dictum dictum.
             </p>
 
-            <p class="relative">
+            <p class="absolute">
                 P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate libero dolor, ac bibendum risus consequat
                 in. Quisque id gravida est. Integer lacinia vel dui et sagittis. Aenean convallis tempus turpis nec fermentum.
                 Quisque vitae consectetur diam. Curabitur mattis libero eget sem placerat, id ultrices erat eleifend. Nunc in orci
