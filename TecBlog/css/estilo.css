@@ -23,6 +23,28 @@ body {
     padding: 10px;
 }
 
+#area-principal {
+    /*largura(fixa) da div*/
+    width: 920px;
+    /*centralizar o conteúdo da div rem relação
+        à pagina*/
+    margin: 0 auto; 
+}
+
+#area-postagens, #area-lateral {
+    background: orange;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
 /*
 **** Formatação do menu ****
 */
