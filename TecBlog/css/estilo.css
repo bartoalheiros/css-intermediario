@@ -28,7 +28,8 @@ body {
     width: 920px;
     /*centralizar o conteúdo da div rem relação
         à pagina*/
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding: 15px; 
 }
 
 #area-postagens, #area-lateral {
@@ -45,21 +46,37 @@ body {
     float: right;
 }
 
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
 /*
 **** Formatação do menu ****
 */
 a {
     text-decoration: none;
-    padding: 8px 12px;
 }
 
 a:link, a:visited {
-    color: #FFF;
+    color: #f7b600;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
     color: #f7b600;
     background: #FFF;
+    text-decoration: none;
 }
 
 /*
@@ -70,6 +87,24 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color: #f7b600;
+}
+
 .branco {
     color:white;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
 }
