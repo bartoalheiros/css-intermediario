@@ -14,3 +14,23 @@ body {
   background: gray;
 }*/
 
+/******************
+Heranca e especificidade */
+
+/* #pagina p {
+  color: red !important;
+} */
+
+/* #pagina p {
+  color: blue;
+} */
+
+
+* {
+  color: red;
+}
+
+
+h2 {
+  color: blue;
+}
